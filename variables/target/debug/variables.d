@@ -1,1 +1,1 @@
-/Users/mindongjoon/Desktop/personal/rust/variables/target/debug/variables: /Users/mindongjoon/Desktop/personal/rust/variables/src/main.rs
+/Users/dongjoonmin/Desktop/dev/rust-playground/variables/target/debug/variables: /Users/dongjoonmin/Desktop/dev/rust-playground/variables/src/main.rs

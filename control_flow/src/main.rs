@@ -1,11 +1,6 @@
 fn main() {
-
-    println!("축의금 받을 사람");
-    let mut count = 10;
-    while count > 0 {
-        println!("{count}");
-        count -=  1;
+    for number in (1..4).rev() {
+        println!("{number}");
     }
-
-    println!("까비");
+    println!("LIFTOFF");
 }

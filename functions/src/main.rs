@@ -1,8 +1,8 @@
 fn main() {
     println!("Hello, world!");
-    another_function()
-}
+    let y = {
+        50
+    } ;
 
-fn another_function() {
-    println!("another func")
+    println!("the value of y is : {y}");
 }

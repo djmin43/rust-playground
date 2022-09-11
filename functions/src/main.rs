@@ -1,8 +1,8 @@
 fn main() {
-    println!("Hello, world!");
-    let y = {
-        50
-    } ;
-
+    let y = five();
     println!("the value of y is : {y}");
+}
+
+fn five () -> i32 {
+    5
 }

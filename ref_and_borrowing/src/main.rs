@@ -7,6 +7,11 @@ fn main() {
 
     println!("The length of '{}' is {}.", s1, len);
     println!("{s2}");
+
+//     dangling
+    let reference_to_nothing = dangle();
+
+
 }
 
 fn calculate_string_length(s: &String) -> usize {
@@ -15,4 +20,10 @@ fn calculate_string_length(s: &String) -> usize {
 
 fn change(some_string: &mut String){
     some_string.push_str(", world");
+}
+
+fn dangle() -> &String {
+    let s= String::from("hello");
+
+    &s
 }

@@ -9,7 +9,9 @@ fn main() {
     println!("{s2}");
 
 //     dangling
+//     this is dangerous
     let reference_to_nothing = dangle();
+
 
 
 }

@@ -4,7 +4,9 @@ fn main() {
 
     let word = first_word(&s);
 
-    s.clear();
+    let hello = &s[0..5];
+    let world = &s[6..11];
+
 
     println!("{word}");
 

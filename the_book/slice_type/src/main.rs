@@ -7,20 +7,22 @@ fn main() {
     let hello = &s[0..5];
     let world = &s[6..11];
 
+    let hello_world = &s[..];
+
 
     println!("{word}");
 
 }
 
-fn first_word(s: &String) -> usize {
+fn first_word(s: &str) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
-            return i;
+            return &s[..i];
         }
     }
 
-    s.len()
+    &s[..]
 }
 

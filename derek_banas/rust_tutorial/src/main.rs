@@ -31,8 +31,33 @@ fn main() {
     // let is_true = true;
     // let my_grade = 'A';
 
-    let num_1: f32 = 1.11111111111111;
-    println!("f32: {}", num_1 + 0.111111111111111);
+    // let num_1: f32 = 1.11111111111111;
+    // println!("f32: {}", num_1 + 0.111111111111111);
+
+    // let num_3: u32 = 5;
+    // let num_4: u32 = 4;
+    // println!("5 + 4 = {}", num_3 + num_4);
+
+    // let random_num = rand::thread_rng().gen_range(1..101);
+    // println!("random: {}", random_num)
+
+    // let age = 8;
+    // if (age >= 1) && (age <= 18) {
+    //     println!("important birthday");
+    // } else if (age == 21) || (age == 50) {
+    //    println!("important birthday");
+    // } else if  age >= 65 {
+    //     println!("not an important birthday")
+    // }
+
+    // let mut my_age = 47;
+    // let can_vote = if my_age >= 18 {
+    //     true
+    // } else {
+    //     false
+    // };
+    // println!("Can vote: {}", can_vote);
+
 
 
 

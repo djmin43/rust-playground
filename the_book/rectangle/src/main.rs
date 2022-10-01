@@ -9,8 +9,8 @@ fn main() {
     let rect_area = area(width1, height1);
     println!("{}", rect_area);
 
-    let rect1 = (30,50);
-    println!("{}", area_tuple(rect1));
+    let rect2 = (30,50);
+    println!("{}", area_tuple(rect2));
 
     let rect3 = Rectangle {
         width: 30,

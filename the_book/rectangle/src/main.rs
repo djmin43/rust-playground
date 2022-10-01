@@ -4,6 +4,7 @@ struct Rectangle {
     height: u32,
 }
 
+// the first parameter of method is always self
 impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
@@ -21,6 +22,5 @@ fn main() {
         "The area of the rectangle is {} square pixels.",
         rect1.area()
     )
-
 
 }

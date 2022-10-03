@@ -21,13 +21,14 @@ fn main() {
         height: 50,
     };
 
-    println!(
-        "The area of the rectangle is {} square pixels.",
-        rect1.area()
-    );
+    let rect2 = Rectangle {
+        width: 10,
+        height: 40,
+    };
 
-    if rect1.width() {
-        println!(" the rect has a nonzero width; it is {}", rect1.width)
+    let rect3 = Rectangle {
+        width: 60,
+        height: 45,
     };
 
 }

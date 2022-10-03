@@ -40,6 +40,6 @@ fn main() {
 
    let square1 = Rectangle::square(500) ;
 
-    println!("square size {:?}", square1)
+    println!("square size {:?}", square1);
 
 }

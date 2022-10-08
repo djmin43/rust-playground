@@ -11,6 +11,8 @@ fn main() {
 
     let write_message = Message::Write(String::from("hello world"));
 
+    write_message.call();
+
     let change_color_message = Message::ChangeColor(3, 1, 2);
 }
 
@@ -30,4 +32,10 @@ enum Message {
     Move { x: i32, y: i32 },
     Write(String),
     ChangeColor(i32, i32, i32),
+}
+
+impl Message {
+    fn call(&self) {
+        // method body would be defined here
+    }
 }

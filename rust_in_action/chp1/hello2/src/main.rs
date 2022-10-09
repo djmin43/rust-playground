@@ -6,7 +6,6 @@ fn greet_world () {
     for region in regions.iter() {
         println!("{}", &region)
     }
-
 }
 
 fn main() {

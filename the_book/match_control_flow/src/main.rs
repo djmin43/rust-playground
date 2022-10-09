@@ -8,7 +8,7 @@ fn main() {
         7 => {
             println!("seven!");
         }
-        rest => {
+        _ => {
             println!("rest");
         }
     }

@@ -1,8 +1,17 @@
 fn main() {
 
-    let a = 42;
-    let r = &a;
-    let b = a + *r;
+    let needle = 0o204;
+    let haystack = [1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147];
 
-    println!("a + a = {}", b);
+    for item in &haystack {
+        if *item == needle {
+            println!("{}", item);
+        }
+    }
+
+
+
+
+
+
 }

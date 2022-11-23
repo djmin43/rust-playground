@@ -1,7 +1,6 @@
 
 fn main() {
-
-    for c in "Зд".chars() {
-        println!("{}", c);
+    for d in "이우혁".bytes() {
+        println!("{}", d);
     }
 }

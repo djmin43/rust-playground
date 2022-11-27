@@ -1,15 +1,15 @@
-use std::collections::HashMap;
 
 fn main() {
 
-    let mut scores = HashMap::new();
+    let mut v = vec![1,4,110, 55,12, 34, 61, 6,23, 612, 132424, 324,2,3,4,5,6,7,8,9,10];
 
-    scores.insert(String::from("Blue"), 10);
-    scores.insert(String::from("Blue"), 25);
+    v.sort();
 
-    scores.entry(String::from("Blue")).or_insert(30);
-    scores.entry(String::from("Yellow")).or_insert(30);
+    let median = v.len()/2;
 
-    println!("{:?}", scores);
+    let v_median = v[median];
 
+
+    println!("{:?}", v);
+    println!("{}", v_median);
 }
